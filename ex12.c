@@ -17,6 +17,8 @@ int main(int argc, char *argv[])
     };
     
     // What's the difference between name[] and *other_name?
+    // name[] are just single chars whereas *other_name is a string of chars
+    // char *names[] would be an array of strings
     char *other_name = "John";
     printf("This is the other name: %s\n", other_name);
     
